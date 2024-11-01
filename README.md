@@ -1,7 +1,7 @@
 # OE-GMLTP
 Ship trajectory prediction in long-term multi-ship scenarios. Implemented by Multi-Graph Convolutional Network (MGSC) and probabilistic sparse self-attention mechanism (Probsparse attention).
-
 The implementation code for the paper "Graph-driven Multi-vessel Long-term Trajectories Prediction for Route Planning under Complex Waters".
+
 
 ![Figure01](https://github.com/KaysenWB/OE-GMLTP/blob/main/Figure01.jpg?raw=true)
 General overview Figure of the paper. It includes data processing, trajectory prediction, and route planning.
@@ -12,3 +12,7 @@ Our proposed algorithmic flow for GMLTP on time series prediction. The key point
 
 ![Figure03](https://github.com/KaysenWB/OE-GMLTP/blob/main/Figure03.jpg?raw=true)
 Presentation of prediction results, which are based on one month's AIS data for Victoria, Hong Kong.
+
+# Acknowledgement
+The algorithm in this article references a lot of the following work: https://github.com/zhouhaoyi/Informer2020.git.
+Their outstanding contributions are greatly appreciated.
