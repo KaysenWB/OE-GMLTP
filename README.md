@@ -1,6 +1,8 @@
 # OE-GMLTP
 Ship trajectory prediction in long-term multi-ship scenarios. Implemented by Multi-Graph Convolutional Network (MGSC) and probabilistic sparse self-attention mechanism (Probsparse attention).
-This code for the paper "Graph-driven Multi-vessel Long-term Trajectories Prediction for Route Planning under Complex Waters".
+This code is for the paper "Graph-driven Multi-vessel Long-term Trajectories Prediction for Route Planning under Complex Waters".
+
+The input is trajectory data with the shape [length, batch, feature], and a corresponding adjacency matrix with the shape [length, nodes, nodes], which can be referred to the following code for data processing: https://github.com/KaysenWB/AIS-Process. Please note that setting the parameter MGSC to "True"
 
 
 ![Figure01](https://github.com/KaysenWB/OE-GMLTP/blob/main/Figure01.jpg?raw=true)
