@@ -14,5 +14,5 @@ Our proposed algorithmic flow for GMLTP on time series prediction. The key point
 Presentation of prediction results, which are based on one month's AIS data for Victoria, Hong Kong.
 
 # Acknowledgement
-The algorithm in this article references a lot of the following work: https://github.com/zhouhaoyi/Informer2020.git.
+The algorithm in this work references a lot of the following work: https://github.com/zhouhaoyi/Informer2020.git.
 Their outstanding contributions are greatly appreciated.
